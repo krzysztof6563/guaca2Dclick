@@ -1,0 +1,23 @@
+0={
+Brak przedmiotu
+data/images/eq/0.png
+Brak opisu
+}
+
+1={
+Stary klucz
+data/images/eq/key1.png
+Klucz znaleziony na 1 piętrze.
+}
+
+2={
+Deska
+data/images/eq/desk.png
+Deska, którą znalazłeś w zawalony korytarzu.
+}
+
+3={
+Szczypce
+data/images/eq/pliers.png
+Szczypce służące do wyciągania małych elementów z trudno dostępnych miejsc.
+}

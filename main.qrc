@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/ui">
+        <file>ui/note.png</file>
+        <file>ui/inv.png</file>
+        <file>ui/load.png</file>
+        <file>ui/save.png</file>
+        <file>ui/info.png</file>
+    </qresource>
+</RCC>

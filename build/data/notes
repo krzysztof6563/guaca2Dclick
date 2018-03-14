@@ -1,0 +1,23 @@
+0={
+	title: "brak tytułu"
+	text: "Brak tekstu"
+	bg: "data/images/eq/0.png"
+	thumb: "data/images/eq/0.png"
+	color: "black"
+}
+
+1={
+	title: "Wiadomość #1"
+	text: "Od: Frank<br>Data: 24.08.2016 12:34:10<br><p style="text-indent: 10px;">Siema stary! Pamiętasz może jeszcze te drzwi z tyłu?</p><p style="text-indent: 10px;">Tak się składa, że Zarządca postanowił znowu zmienić kod do nich. Co za debil. W każdym razie nie poznamy kodu dopóki On nie wróci. Pewnie znowu poszedł <b>oglądać obrazy</b> czy coś podobnego.</p><br><br>W każdym razie, trzymaj się stary."
+	bg: "data/images/notes/1.jpg"
+	thumb: "data/images/notes/thumb/1.jpg"
+	color: "black"
+}
+
+2={
+	title: "Broszura NRC"
+	text: "<center><h2>Witaj w Nor Research Center</h2></center><p style='text-indent: 10px'>Dziękujemy za podjęcie współpracy z naszym instytutem. Mamy nadzieję, że nasza współpraca zaoowocuje wieloma wspaniałymi odkryciami w najbilższej przyszłości.</p><p style='text-indent: 10px'>Zanim jednak przystąpisz do pracy musimy poinformować cię o najważniejszych zasadach panujących na terenie kompleksu:</p><ul><li>Pod żadnym warunkiem nie można wchodzić na poziomy, na które nie ma się uprawnienia. Grozi to zwolnieniem lub karami pieniężnymi.</li><li>Kompleks na którym się znajdujesz jest ośrodkiem zamkniętym, z którego można wyjść jedynie za pozwoleniem przełożonego.</li><li>Stołówka jest otwarta w następujących godzinach: 6:00 - 7:00, 12:00 - 13:00 oraz 19:00 - 20:00.</li></ul><p style='text-indent: 10px'>W razie jakichkolwiek pytań oraz zażaleń należy zwrócić się do swojego przełożonego.</p><h4>Dziękujemy za współpracę.</h4>"
+	bg: "data/images/notes/2.jpg"
+	thumb: "data/images/notes/thumb/2.png"
+	color: "white"
+}

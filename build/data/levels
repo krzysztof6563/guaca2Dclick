@@ -1,0 +1,1179 @@
+1={
+	text: "Obudziłeś się w nieznanym pomieszczeniu. Nie pamiętasz co się stało, ani dlaczego się tu znalazłeś. Wygląda na to, że znajdujesz się w jakimś opuszczonym budynku. Czujesz dziwny zapach, którego nie możesz dokładnie sprecyzować. Pomimo osłabienia jakie czujesz udaje ci się wstać. Po lewej dostrzegasz łóżko, a po prawej drzwi."
+	image: "data/images/1.jpg"
+	button1Text: "Obejrzyj łóżko"
+	button1LevelLoad: "1-2"
+	button1IsEnabled: "true"
+	button2Text: "Podejdź do drzwi"
+	button2LevelLoad: "1-3"
+	button2IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-2={
+	text: "Zauważasz plamy zaschniętej krwi na łóżku. Zastanawiasz się czyja to krew może być."
+	image: "data/images/1-2.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-3={
+	text: "Przypatrujesz się drzwiom i wyglądasz przez wizjer. Nie możesz prawie nic zobaczyć przez ciemność. Zastanwiasz się czy chcesz przez nie wyjść."
+	image: "data/images/1-3.jpg"
+	button3Text: "Otwórz drzwi"
+	button3LevelLoad: "1-4"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-4={
+	text: "Rozglądając się zauważasz, że znajdujesz się w korytarzu pełnym drzwi, nie masz pojęcia w którą stronę się udać."
+	image: "data/images/1-4.jpg"
+	button1Text: "Idź w lewo"
+	button1LevelLoad: "1-6"
+	button1IsEnabled: "true"
+	button2Text: "Idź w prawo"
+	button2LevelLoad: "1-5"
+	button2IsEnabled: "true"
+	button4Text: "Wróć do pomieszczenia, w którym się obudziłeś."
+	button4LevelLoad: "1"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+	SFX: "data/sfx/door2.wav"
+	SFXLoc: "enter"
+}
+
+1-4-ns={
+	text: "Rozglądając się zauważasz, że znajdujesz się w korytarzu pełnym drzwi, nie masz pojęcia w którą stronę się udać."
+	image: "data/images/1-4.jpg"
+	button1Text: "Idź w lewo"
+	button1LevelLoad: "1-6"
+	button1IsEnabled: "true"
+	button2Text: "Idź w prawo"
+	button2LevelLoad: "1-5"
+	button2IsEnabled: "true"
+	button4Text: "Wróć do pomieszczenia, w którym się obudziłeś."
+	button4LevelLoad: "1"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-5={
+	text: "Zamknięte drzwi, możliwe że uda ci się je otworzyć za pomocą klucza."
+	image: "data/images/1-5.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-4-ns"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+	itemNeeded: "1"
+	altStage: "1-5"
+}
+
+1-5-alt={
+	text: "Otworzone drzwi"
+	image: "data/images/1-5-alt.jpg"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-6"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-4-ns"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-6={
+	text: "Idąc dalej korytarzem dochodzisz do rozwidlenia drogi. Jedyne co możesz zrobić to pójść w jakąś stronę"
+	image: "data/images/1-6.jpg"
+	button1Text: "Idź w lewo"
+	button1LevelLoad: "1-7"
+	button1IsEnabled: "true"
+	button2Text: "Idź w prawo"
+	button2LevelLoad: "1-13"
+	button2IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-4-ns"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-7={
+	text: "Po obu stronach korytarza dostrzegasz drzwi, zastanawiasz się co może się za nimi kryć."
+	image: "data/images/1-7.jpg"
+	button1Text: "Przejdź przez drzwi po lewej"
+	button1LevelLoad: "1-7a"
+	button1IsEnabled: "true"
+	button2Text: "Przejdź przez drzwi po prawej"
+	button2LevelLoad: "1-8"
+	button2IsEnabled: "true"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-9"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-7r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-7r={
+	text: "Dochodzisz do rozwidlenia dróg. Twoje jedyne opcje to pójść prosto, w prawo, zawrócić lub czekać i nie robić nic."
+	image: "data/images/1-7r.jpg"
+	button1Text: "Idź prosto"
+	button1LevelLoad: "1-13"
+	button1IsEnabled: "true"
+	button2Text: "Idź korytarzem w prawo"
+	button2LevelLoad: "1-6"
+	button2IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-7"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-7a={
+	text: "Nie możesz otworzyć drzwi, zdaje się że zamek został zepsuty"
+	image: "data/images/1-7a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-7"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+	SFX: "data/sfx/jdoor.wav"
+	SFXLoc: "enter"
+}
+
+1-8={
+	text: "Znalazłeś się w małym pomieszczeniu zawierającym  niewiele rzeczy. Po swojej lewej zauważasz metalową szafę, na wprost drewniane biurko, a na lewo roślinę doniczkową. Z tyłu pomieszczenia złowieszczo patrzy na Ciebie istota z obrazu."
+	image: "data/images/1-8.jpg"
+	button1Text: "Podejdź do szafki"
+	button1LevelLoad: "1-8a"
+	button1IsEnabled: "true"
+	button2Text: "Zobacz biurko"
+	button2LevelLoad: "1-8b"
+	button2IsEnabled: "true"
+	button3Text: "Zobacz obraz"
+	button3LevelLoad: "1-8c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-7"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+	SFX: "data/sfx/door3.wav"
+	SFXLoc: "enter"
+}
+
+1-8-ns={
+	text: "Znalazłeś się w małym pomieszczeniu zawierającym  niewiele rzeczy. Po swojej lewej zauważasz metalową szafę, na wprost drewniane biurko, a na lewo roślinę doniczkową. Z tyłu pomieszczenia złowieszczo patrzy na Ciebie istota z obrazu."
+	image: "data/images/1-8.jpg"
+	button1Text: "Podejdź do szafki"
+	button1LevelLoad: "1-8a"
+	button1IsEnabled: "true"
+	button2Text: "Zobacz biurko"
+	button2LevelLoad: "1-8b"
+	button2IsEnabled: "true"
+	button3Text: "Zobacz obraz"
+	button3LevelLoad: "1-8c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-7"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-8a={
+	text: "Ciężka metalowa szafa. Wydaje się, że może kryć się w niej coś ciekawego, lecz nie ważne jak mocno próbujesz, drzwi od szafy ani drgną."
+	image: "data/images/1-8a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-8-ns"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-8b={
+	text: "Drewniane biurko. Nic nadzywczajnego, na blacie znajduje się monitor, klawiatura i kilka kartek."
+	image: "data/images/1-8b.jpg"
+	button1Text: "Spróbuj uruchomić komputer"
+	button1LevelLoad: "1-8b-1"
+	button1IsEnabled: "true"
+	button2Text: "Obejrzyj kartki papieru"
+	button2LevelLoad: "1-8b-note"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-8-ns"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-8b-1={
+	text: "Nie ma zasilania. Nic dziwnego, że komputer nie działa"
+	image: "data/images/1-8b.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-8b"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-8b-note={
+	text: "Znajdujesz e-mail od <b>Franka</b>."
+	image: "data/images/1-8b.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-8b"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+	note: "1"
+}
+
+
+1-8c={
+	text: "Obraz ten od razu przykuwa uwagę ze względu na swoją surrealność, im dłużej się w niego wpatrujesz tym bardziej nieswojo się czujesz. Zdaje się, jakby istota na obrazie patrzała wprost w twoje oczy."
+	image: "data/images/1-8c.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-8-ns"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-9={
+	text: "Dochodzisz do końca korytarza, który zakręca w prawo."
+	image: "data/images/1-9.jpg"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-10"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-9r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-9r={
+	text: "Po obu stronach korytarza dostrzegasz drzwi, zastanawiasz się co może się za nimi kryć."
+	image: "data/images/1-9r.jpg"
+	button1Text: "Przejdź przez drzwi po lewej"
+	button1LevelLoad: "1-8"
+	button1IsEnabled: "true"
+	button2Text: "Przejdź przez drzwi po prawej"
+	button2LevelLoad: "1-7a"
+	button2IsEnabled: "true"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-7r"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-9"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-10={
+	text: "Idąc dalej przechodzisz przez korytarz, który ponownie zakręca w prawo."
+	image: "data/images/1-10.jpg"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-11"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-9"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-10r={
+	text: "Idąc dalej przechodzisz przez korytarz, który ponownie zakręca w lewo."
+	image: "data/images/1-10r.jpg"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-9r"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-11"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-11={
+	text: "Po wyjściu z zakrętu trafiasz w kolejny kortytarz, zauważasz kilka par drzwi oraz w oddali kraty blokujące twoją drogę."
+	image: "data/images/1-11.jpg"
+	button1Text: "Zobacz drzwi po lewej"
+	button1LevelLoad: "1-11a"
+	button1IsEnabled: "true"
+	button2Text: "Zobacz drzwi po prawej"
+	button2LevelLoad: "1-19"
+	button2IsEnabled: "true"
+	button3Text: "Podejdź do kraty"
+	button3LevelLoad: "1-12"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-10r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-11a={
+	text: "Nie udaje Ci się otworzyć drzwi, zdaje się że zamek został zepsuty."
+	image: "data/images/1-11a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-11"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+	SFX: "data/sfx/ldoor.wav"
+	SFXLoc: "enter"
+}
+
+1-11r={
+	text: "Wracając się twoim oczom ukazują się 3 pary drzwi."
+	image: "data/images/1-11r.jpg"
+	button1Text: "Zobacz drzwi po lewej"
+	button1LevelLoad: "1-19"
+	button1IsEnabled: "true"
+	button2Text: "Zobacz drzwi po prawej"
+	button2LevelLoad: "1-11a"
+	button2IsEnabled: "true"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-10r"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-12r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-12={
+	text: "Dochodzisz do drzwi, które zablokowane są za pomocą elektronicznego <b>kodu</b>. Bez znajomości odpowiedniej kombincaji cyfr nie otworzysz tych drzwi."
+	image: "data/images/1-12.jpg"
+	button3Text: "Wprowadź kod"
+	button3LevelLoad: "1-12-keypad"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-11"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-12-keypad={
+	text: "Spostrzegasz, że kod składa się z 4 cyfr."
+	image: "data/images/1-12-keypad.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-12"
+	button4IsEnabled: "true"
+	password: "1746"
+	altStage: "1-12"
+	music: "data/music/1.ogg"
+}
+
+1-12-alt={
+	text: "Po wprowadzeniu odpowiedniej kombinacji cyfr drzwi otworzyły się z lekkim kliknięciem."
+	image: "data/images/1-12-alt.jpg"
+	button3Text: "Przejdź przez drzwi"
+	button3LevelLoad: "1-20"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-11r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-12r={
+	text: "Wracasz się w okolicę drzwi, gdzie musiałeś wpisać kod z obrazów."
+	image: "data/images/1-12r.jpg"
+	button3Text: "Idź do przodu"
+	button3LevelLoad: "1-11r"
+	button3IsEnabled: "true"
+	button4Text: "Przejdź przez drzwi"
+	button4LevelLoad: "1-20"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+
+1-13={
+	text: "Zza rogu zauważasz kilka par drzwi. Większośc z nich jest albo zepsuta, albo zamknięta."
+	image: "data/images/1-13.jpg"
+	button1Text: "Zobacz drzwi po lewej"
+	button1LevelLoad: "1-18"
+	button1IsEnabled: "true"
+	button2Text: "Idź dalej"
+	button2LevelLoad: "1-14"
+	button2IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-13r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-13r={
+	text: "Dochodzisz do rozwidlenia dróg. Twoje jedyne opcje to pójść prosto, w lewo, zawrócić lub czekać i nie robić nic."
+	image: "data/images/1-13r.jpg"
+	button1Text: "Idź w lewo"
+	button1LevelLoad: "1-6"
+	button1IsEnabled: "true"
+	button2Text: "Idź prosto"
+	button2LevelLoad: "1-7"
+	button2IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-13"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-14={
+	text: "Dochodzisz do miejsca, gdzie korytarz skręca w lewo."
+	image: "data/images/1-14.jpg"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-15"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-14r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-14r={
+	text: "Zza rogu zauważasz kilka par drzwi. Większośc z nich jest albo zepsuta, albo zamknięta."
+	image: "data/images/1-14r.jpg"
+	button2Text: "Zobacz drzwi po lewej"
+	button2LevelLoad: "1-18"
+	button2IsEnabled: "true"
+	button1Text: "Idź dalej"
+	button1LevelLoad: "1-13r"
+	button1IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-14"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-15={
+	text: "Po drodze nie zobaczyłeś niczego ciekawego, co skłoniło by Cię do zatrzymania się."
+	image: "data/images/1-15.jpg"
+	button3Text: "Idź w lewo"
+	button3LevelLoad: "1-16"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-14"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-15r={
+	text: "Po drodze nie zobaczyłeś niczego ciekawego, co skłoniło by Cię do zatrzymania się."
+	image: "data/images/1-15r.jpg"
+	button3Text: "Idź dalej"
+	button3LevelLoad: "1-14r"
+	button3IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-16"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-16={
+	text: "W oddali zauważasz kraty, które blokują twoją dalszą drogę, natomiast po lewej znajduje się para drewnianych, niepasujących do otoczenia drzwi."
+	image: "data/images/1-16.jpg"
+	button1Text: "Przejdź przez drzwi po lewej"
+	button1LevelLoad: "1-17"
+	button1IsEnabled: "true"
+	button2Text: "Podejdź bliżej krat"
+	button2LevelLoad: "1-16a"
+	button2IsEnabled: "true"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-15r"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-16a={
+	text: "Po drugiej stronie krat zauważasz drzwi, a obok nich <b>klawiaturę numeryczną</b>."
+	image: "data/images/1-16a.jpg"
+	button4Text: "Wróć się"
+	button4LevelLoad: "1-16"
+	button4IsEnabled: "true"
+	music: "data/music/1.ogg"
+}
+
+1-17={
+	text: "Twoim oczom ukazał się mały pokoik. Po lewej dostrzegasz komputer stojący na biurku, na przeciw obraz przedstawiający dziwny portret, a w prawym rogu metalową szafę."
+	image: "data/images/1-17.jpg"
+	button1Text: "Szafka"
+	button1LevelLoad: "1-17a"
+	button1IsEnabled: "true"
+	button2Text: "Biurko"
+	button2LevelLoad: "1-17b"
+	button2IsEnabled: "true"
+	button3Text: "Obraz"
+	button3LevelLoad: "1-17c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-16"
+	button4IsEnabled: "true"
+	SFX: "data/sfx/door3.wav"
+	SFXLoc: "enter"
+}
+
+1-17-ns={
+	text: "Twoim oczom ukazał się mały pokoik. Po lewej dostrzegasz komputer stojący na biurku, na przeciw obraz przedstawiający dziwny portret, a w prawym rogu metalową szafę. Obok szafy stoi doniczka z rośliną."
+	image: "data/images/1-17.jpg"
+	button1Text: "Szafka"
+	button1LevelLoad: "1-17a"
+	button1IsEnabled: "true"
+	button2Text: "Biurko"
+	button2LevelLoad: "1-17b"
+	button2IsEnabled: "true"
+	button3Text: "Obraz"
+	button3LevelLoad: "1-17c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-16"
+	button4IsEnabled: "true"
+}
+
+1-17a={
+	text: "Ciężka metalowa szafa. Wydaje się, że może kryć się w niej coś ciekawego, lecz nie ważne jak mocno próbujesz, drzwi od szafy ani drgną."
+	image: "data/images/1-17a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-17-ns"
+	button4IsEnabled: "true"
+}
+
+1-17b={
+	text: "Drewniane biurko. Nic nadzywczajnego, na blacie znajduje się monitor i klawiatura."
+	image: "data/images/1-17b.jpg"
+	button3Text: "Spróbuj uruchomić komputer"
+	button3LevelLoad: "1-17b-1"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-17-ns"
+	button4IsEnabled: "true"
+}
+
+1-17b-1={
+	text: "Nie ma zasilania. Nic dziwnego, że komputer nie działa"
+	image: "data/images/1-17b.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-17b"
+	button4IsEnabled: "true"
+}
+
+1-17c={
+	text: "Zdaje się, że jest to zwykły portret człowieka, jednakże wykonany jest on z różnch owoców i warzyw, przypominasz sobie, że już kiedyś widziałeś ten obraz, tylko nie pamiętasz dokładnie gdzie."
+	image: "data/images/1-17c.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-17-ns"
+	button4IsEnabled: "true"
+}
+
+1-18={
+	text: "Wchodząc do pomieszczenia odczuwasz dziwny efekt dejavu, jednakże po chwili otrząsasz się z tego. Twoją uwagę przykuwa obraz po prawej oraz biurko pod nim."
+	image: "data/images/1-18.jpg"
+	button1Text: "Szafka"
+	button1LevelLoad: "1-18a"
+	button1IsEnabled: "true"
+	button2Text: "Biurko"
+	button2LevelLoad: "1-18b"
+	button2IsEnabled: "true"
+	button3Text: "Obraz"
+	button3LevelLoad: "1-18c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-13"
+	button4IsEnabled: "true"
+	SFX: "data/sfx/door3.wav"
+	SFXLoc: "enter"
+}
+
+1-18-ns={
+	text: "Wchodząc do pomieszczenia odczuwasz dziwny efekt dejavu, jednakże po chwili otrząsasz się z tego. Twoją uwagę przykuwa obraz po twojej prawicy oraz biurko pod nim."
+	image: "data/images/1-18.jpg"
+	button1Text: "Szafka"
+	button1LevelLoad: "1-18a"
+	button1IsEnabled: "true"
+	button2Text: "Biurko"
+	button2LevelLoad: "1-18b"
+	button2IsEnabled: "true"
+	button3Text: "Obraz"
+	button3LevelLoad: "1-18c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-13"
+	button4IsEnabled: "true"
+}
+
+1-18a={
+	text: "Ciężka metalowa szafa. Wydaje się, że może kryć się w niej coś ciekawego, lecz nie ważne jak mocno próbujesz, drzwi od szafy ani drgną."
+	image: "data/images/1-18a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-18-ns"
+	button4IsEnabled: "true"
+}
+
+1-18b={
+	text: "Drewniane biurko. Nic nadzywczajnego, na blacie znajduje się tylko monitor i klawiatura."
+	image: "data/images/1-18b.jpg"
+	button3Text: "Spróbuj uruchomić komputer"
+	button3LevelLoad: "1-18b-1"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-18-ns"
+	button4IsEnabled: "true"
+}
+
+1-18b-1={
+	text: "Nie ma zasilania. Nic dziwnego, że komputer nie działa"
+	image: "data/images/1-18b.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-18b"
+	button4IsEnabled: "true"
+}
+
+1-18c={
+	text: "Patrząc na obraz dostajesz gęsiej skórki i oblewa cię zimny pot. Nie wiesz dlaczego, ale czujesz jak zło emanuje od tego obrazu."
+	image: "data/images/1-18c.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-18-ns"
+	button4IsEnabled: "true"
+}
+
+1-19={
+	text: "Za drzwiami znajdujesz pomieszczenie o niewielkich wymiarach. Znajduja się tu szafa, biurko oraz obraz na ścianie. Na biurku dostrzegasz włączony monitor oraz rozrzucone kartki papieru."
+	image: "data/images/1-19.jpg"
+	button1Text: "Szafka"
+	button1LevelLoad: "1-19a"
+	button1IsEnabled: "true"
+	button2Text: "Biurko"
+	button2LevelLoad: "1-19b"
+	button2IsEnabled: "true"
+	button3Text: "Obraz"
+	button3LevelLoad: "1-19c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-11"
+	button4IsEnabled: "true"
+	SFX: "data/sfx/door3.wav"
+	SFXLoc: "enter"
+}
+
+1-19-ns={
+	text: "Za drzwiami znajdujesz pomieszczenie o niewielkich wymiarach. Znajduja się tu szafa, biurko oraz obraz na ścianie. Na biurku dostrzegasz włączony monitor oraz rozrzucone kartki papieru."
+	image: "data/images/1-19.jpg"
+	button1Text: "Szafka"
+	button1LevelLoad: "1-19a"
+	button1IsEnabled: "true"
+	button2Text: "Biurko"
+	button2LevelLoad: "1-19b"
+	button2IsEnabled: "true"
+	button3Text: "Obraz"
+	button3LevelLoad: "1-19c"
+	button3IsEnabled: "true"
+	button4Text: "Wyjdź z pomieszczenia"
+	button4LevelLoad: "1-11"
+	button4IsEnabled: "true"
+}
+
+1-19a={
+	text: "Ciężka metalowa szafa. Wydaje się, że może kryć się w niej coś ciekawego, lecz nie ważne jak mocno próbujesz, drzwi od szafy ani drgną."
+	image: "data/images/1-19a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-19-ns"
+	button4IsEnabled: "true"
+}
+
+1-19b={
+	text: "Drewniane biurko. Nic nadzywczajnego, na blacie znajduje się monitor, klawiatura i kilka kartek."
+	image: "data/images/1-19b.jpg"
+	button1Text: "Spróbuj użyć komputera"
+	button1LevelLoad: "1-19b-1"
+	button1IsEnabled: "true"
+	button2Text: "Obejrzyj kartki papieru"
+	button2LevelLoad: "1-19b-note"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-19-ns"
+	button4IsEnabled: "true"
+}
+
+1-19b-note={
+	text: "Nie znajdujesz nic przydatnego. Tylko bezużyteczne informacje."
+	image: "data/images/1-19b.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-19b"
+	button4IsEnabled: "true"
+}
+
+1-19b-1={
+	text: "Na ekranie wyświetlany jest komunikat o błędzie. Raczej nie skorzystasz już z tego urządzenia."
+	image: "data/images/1-19b.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-19b"
+	button4IsEnabled: "true"
+}
+
+1-19c={
+	text: "Patrząc na obraz przypomina ci się, że kiedyś już do widziałeś. Myślisz, że symbolizował on przemijanie czasu czy coś podobnego. Oprócz tego nie dostrzegasz w nim nic nadzwyczajnego."
+	image: "data/images/1-19c.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-19-ns"
+	button4IsEnabled: "true"
+}
+
+1-20={
+	text: "Za drzwiami odnajdujesz kolejny spowity w mroku korytarz. Po twojej lewej znajduje się goła ściana bez żadnych ozdób, a po prawej dwie pary drzwi."
+	image: "data/images/1-20.jpg"
+	button1Text: "Idź do przodu"
+	button1LevelLoad: "1-21"
+	button1IsEnabled: "true"
+	button2Text: "Otwórz drzwi po prawej"
+	button2LevelLoad: "1-24"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-12r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-21={
+	text: "Idąc dalej wzdłuż korytararza zauważasz na jego końcu rozwidlenie i napis 1F obok jakiegoś logo. Po prawej znajdują się <b>drewniane drzwi</b>."
+	image: "data/images/1-21.jpg"
+	button1Text: "Idź dalej"
+	button1LevelLoad: "1-22"
+	button1IsEnabled: "true"
+	button2Text: "Przejdź przez drzwi po prawej"
+	button2LevelLoad: "1-25"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-21r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-21r={
+	text: "Po prawej znajdują się brązowe drzwi, natomiast na wprost znajdują się drzwi, które wymagały kodu do otworzenia."
+	image: "data/images/1-21r.jpg"
+	button1Text: "Przejdź przez drzwi po lewej"
+	button1LevelLoad: "1-24"
+	button1IsEnabled: "true"
+	button2Text: "Idź prosto"
+	button2LevelLoad: "1-12r"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-21"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-22={
+	text: "Na ścianie znajdującej się na przeciw ciebie zauważasz logo z napisem NRC. Jednakże nic Ci to nie mówi. Po prawej stronie napisu znajduje się napis <b>1F</b>, ciekawe czy może to oznaczać piętro, na którym się znajdujesz?"
+	image: "data/images/1-22.jpg"
+	button1Text: "Idź w lewo"
+	button1LevelLoad: "1-23"
+	button1IsEnabled: "true"
+	button2Text: "Idź w prawo"
+	button2LevelLoad: "1-26"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-22r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-22r={
+	text: "Ciemny korytarz z dwojgiem drzwi."
+	image: "data/images/1-22r.jpg"
+	button1Text: "Otwórz drzwi po lewej"
+	button1LevelLoad: "1-25"
+	button1IsEnabled: "true"
+	button2Text: "Idź dalej"
+	button2LevelLoad: "1-21r"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-22"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-23={
+	text: "Znajdujesz kolejne drzwi wymagające specjalnego kodu do ich otwarcia."
+	image: "data/images/1-23.jpg"
+	button3Text: "Wprowadź kod"
+	button3LevelLoad: "1-23-keypad"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-23r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-23r={
+	text: "Rozwidlenie korytarza."
+	image: "data/images/1-23r.jpg"
+	button1Text: "Podejdź do schodów"
+	button1LevelLoad: "1-26"
+	button1IsEnabled: "true"
+	button2Text: "Idź w prawo"
+	button2LevelLoad: "1-22r"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-23"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24={
+	text: "Po szybkim rzucie okiem na pomieszczenie zgadujesz, że jest to mały magazyn różnorakich rzeczy. Znajduję się tu kilka regałów z zastawionymi półkami. Spowite w ciemności skrzynki leżą w kącie przeciwległej ściany."
+	image: "data/images/1-24.jpg"
+	button1Text: "Zobacz regały po lewej"
+	button1LevelLoad: "1-24-1"
+	button1IsEnabled: "true"
+	button2Text: "Zobacz regały po prawej"
+	button2LevelLoad: "1-24-2"
+	button2IsEnabled: "true"
+	button3Text: "Podejdź do ściany"
+	button3LevelLoad: "1-24-5"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-20"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24-1={
+	text: "Na półkach znajdują się różnego rodzaju pudełka wykonane z tektury oraz drewniane skrzynki, ciekawe co się w nich znajduje? Oprócz skrzynek i kartonów zauważasz kilka puszek, zdaje się, że kilka z nich zawiera żywność."
+	image: "data/images/1-24-1.jpg"
+	button3Text: "Przeszukaj regał"
+	button3LevelLoad: "1-24-1a"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24-1a={
+	text: "Za puszką z jedzeniem leżały szczypce. Pomyślałeś, że mogą się przydać."
+	image: "data/images/1-24-1a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24-1"
+	button4IsEnabled: "true"
+	altStage: "1-24-1a"
+	changeAlt: "false"
+	itemObtained: "3"
+	music: "data/music/2.ogg"
+}
+
+1-24-1a-alt={
+	text: "Nic nie znalazłeś."
+	image: "data/images/1-24-1a.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24-1"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24-2={
+	text: "Na półkach znajdują się różnego rodzaju pudełka wykonane z tektury oraz drewniane skrzynki, ciekawe co się w nich znajduje? Oprócz skrzynek i kartonów zauważasz kilka puszek, zdaje się, że kilka z nich zawiera żywność."
+	image: "data/images/1-24-2.jpg"
+	button3Text: "Przeszukaj regał"
+	button3LevelLoad: "1-24-2a"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24-2a={
+	text: "Nic nie znalazłeś."
+	image: "data/images/1-24-2.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24-2"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24-3={
+	text: "lewo lub prawo."
+	image: "data/images/1-24-3.jpg"
+	button1Text: "1-24-4"
+	button1LevelLoad: "1-24-4"
+	button1IsEnabled: "true"
+	button2Text: "1-24-5"
+	button2LevelLoad: "1-24-5"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24-4={
+	text: "Skrzynki"
+	image: "data/images/1-24-4.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24-3"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-24-5={
+	text: "Po pdoejściu do ściany twoją uwagę skierowała metalowa płytka przymocowana do ściany za pomocą 4 śrub. Mimo faktu, że płytka jest cała zardzewiała to nie rusza się ani na milimetr. Zdaje się, że potrzebujesz jakiegoś narzędzia, aby ją usunąć."
+	image: "data/images/1-24-5.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24"
+	button4IsEnabled: "true"
+	itemNeeded: "2"
+	altStage: "1-24-5"
+	music: "data/music/2.ogg"
+}
+
+1-24-5-alt={
+	text: "Używając śrubokretu udało ci się odkręcić większość śrub i obrócić płytkę tak, aby zobaczyć co się za nią znajduje. W środku zauważysz wyżłobienie w ścianie, w którym znajduje się klucz. Próbujesz sięgnąć po niego, lecz twoje wysiłki idą na marne, gdyż nie możesz go dosięgnąć."
+	image: "data/images/1-24-5-alt.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24"
+	button4IsEnabled: "true"
+	altStage: "1-24-5-alt"
+	itemNeeded: "3"
+	music: "data/music/2.ogg"
+}
+
+1-24-5-alt-alt={
+	text: "Wyjąłeś klucz."
+	image: "data/images/1-24-5-alt-alt.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24"
+	button4IsEnabled: "true"
+	itemObtained: "1"
+	altStage: "1-24-5-alt-alt"
+	music: "data/music/2.ogg"
+}
+
+1-24-5-alt-alt-alt={
+	text: "Klucz został już przez ciebie wyjęty."
+	image: "data/images/1-24-5-alt-alt.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-24"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-25={
+	text: "Wnioskując po obeności szafek i pięknie wymodelowanych ławek stwierdzasz, że wszedłeś do szatni. Jednakże dlaczego ona się tu znajduje? Budynek, w którym jesteś wydaje się całkiem opustoszały, więc skąd się tu wzięło takie pomieszczenie?"
+	image: "data/images/1-25.jpg"
+	button1Text: "Przeszukaj szafki"
+	button1LevelLoad: "1-25-1"
+	button1IsEnabled: "true"
+	button2Text: "Podejdź bliżej ławek"
+	button2LevelLoad: "1-25-2"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-21"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-25-1={
+	text: "Wszystkie szafki są zamknięte."
+	image: "data/images/1-25-1.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-25"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-25-2={
+	text: "Twoją uwagę przykuwają <b>kartki papieru</b> leżące na środku ławki."
+	image: "data/images/1-25-2.jpg"
+	button3Text: "Obejrzyj kartki"
+	button3LevelLoad: "1-25-2-note"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-25"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-25-2-note={
+	text: "Okazało się, że czarna kartka to broszura dotycząca kompleksu NRC. Czy to właśnie jest miejsce, w którym się znajdujesz?"
+	image: "data/images/1-25-2.jpg"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-25"
+	button4IsEnabled: "true"
+	note: "2"
+	music: "data/music/2.ogg"
+}
+
+1-26={
+	text: "Dochodzisz do schodów, które zdają się prowadzić jedynie w ciemność. Jest jedynie jeden sposób, aby się dowiedzieć co znajduje się dalej."
+	image: "data/images/1-26.jpg"
+	button3Text: "Zejdź po schodach"
+	button3LevelLoad: "1-27"
+	button3IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-26r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-26r={
+	text: "Stojąc tyłem do schodów masz możliwość pójścia w korytarz po lewej stronie lub naprzód."
+	image: "data/images/1-26r.jpg"
+	button1Text: "Idź w lewo"
+	button1LevelLoad: "1-22r"
+	button1IsEnabled: "true"
+	button2Text: "Idź na wprost"
+	button2LevelLoad: "1-23"
+	button2IsEnabled: "true"
+	button4Text: "Wróć"
+	button4LevelLoad: "1-26"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-27={
+	text: "Znajdujesz się na półpiętrze. Z oznaczeń znajdujących się na ścianie wynika, że możesz zejśc na pierwsze piętro piwnicy lub wrócić się na parter."
+	image: "data/images/1-27.jpg"
+	button1Text: "Piwnica"
+	button1LevelLoad: "1-28"
+	button1IsEnabled: "true"
+	button2Text: "Parter"
+	button2LevelLoad: "1-26r"
+	button2IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-28={
+	text: "Schodząć po schodach prawie się potknąłeś, lecz zdążyłeś złapać równowagę. Znajdujesz się teraz na pierwszym piętrze piwnicy. W wszechobecnej ciemności zauważasz w korytarzu na wprost słaby obrys drzwi. Po lewej stronie znajduje się korytarz, jednakże coś jest nie tak z jego podłogą."
+	image: "data/images/1-28.jpg"
+	button1Text: "Idź w lewo"
+	button1LevelLoad: "1-31"
+	button1IsEnabled: "true"
+	button2Text: "Idź prosto"
+	button2LevelLoad: "1-29"
+	button2IsEnabled: "true"
+	button4Text: "Wróc"
+	button4LevelLoad: "1-27"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-29={
+	text: "Zwykłe drewniane drzwi, wydaje się, że są zamknięte. Czujesz wiatr wiejący spod drzwi."
+	image: "data/images/1-29.jpg"
+	button3Text: "Otwórz drzwi"
+	button3LevelLoad: "1-30"
+	button3IsEnabled: "true"
+	button4Text: "Wróc"
+	button4LevelLoad: "1-29r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-29r={
+	text: "Naprzeciw znajdują się schody, które prowadzą na parter tego dziwnego budynku. Przed samymi schodami korytarz zakręca w prawo."
+	image: "data/images/1-29r.jpg"
+	button1Text: "Wejdź po schodach"
+	button1LevelLoad: "1-27"
+	button1IsEnabled: "true"
+	button2Text: "Idź zgodnie z korytarzem"
+	button2LevelLoad: "1-31"
+	button2IsEnabled: "true"
+	button4Text: "Wróc"
+	button4LevelLoad: "1-29"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-30={
+	text: "Twoim oczom uakzuje się korytarz zablokowany przez gruz, prawdobodobnie sufit lub ściany zawaliły się skutecznie blokując ci przejście. Wśród zwaliska oprócz betonu, kamienia i innych surowców zauważasz kawałki drewna."
+	image: "data/images/1-30.jpg"
+	button3Text: "Przeszukaj zwalisko"
+	button3LevelLoad: "1-30-item"
+	button3IsEnabled: "true"
+	button4Text: "Wróc"
+	button4LevelLoad: "1-29r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-30-item={
+	text: "Wśród gruzu znajdujesz kawałek deski, który może ci się przydać."
+	image: "data/images/1-30.jpg"
+	itemObtained: "2"
+	altStage: "1-30"
+	music: "data/music/2.ogg"
+}
+
+1-30-alt={
+	text: "Twoim oczom uakzuje się korytarz zablokowany przez gruz, prawdobodobnie sufit lub ściany zawaliły się skutecznie blokując ci przejście. Wśród zwaliska oprócz betonu, kamienia i innych surowców zauważasz kawałki drewna."
+	image: "data/images/1-30-alt.jpg"
+	button4Text: "Wróc"
+	button4LevelLoad: "1-29r"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-31={
+	text: "Na swojej drodze spotykasz dziure w podłodze. Ostrożnie zaglądając w nicość czeluści spostrzegasz, że nie widzisz nawet dna otworu. Po obu stronach dziury znajdują się drzwi, do których nie uzyskasz już dostępu. Zastanawiasz się czy zaryzykwoać skok na drugą stronę."
+	image: "data/images/1-31.jpg"
+	button3Text: "Zaryzykuj"
+	button3LevelLoad: "1-31-d"
+	button3IsEnabled: "true"
+	button4Text: "Wróc"
+	button4LevelLoad: "1-28"
+	button4IsEnabled: "true"
+	itemNeeded: "2"
+	altStage: "1-31"
+	music: "data/music/2.ogg"
+}
+
+1-31-d={
+	text: "Cofasz się do końca korytarza i rozpędzasz, stopniowo zaczynasz nabierać prędkości jednocześnie skracjąc dystans między tobą a wyrwą w podłodze. Znajdujesz się już na końcu stablinego podłoża i szykujesz się do skoku. Odrywasz swoje nogi od ziemi i szybujesz przez powietrze w stronę krawędzi po drugiej stronie. Zdaje się, że ryzyko się opłaciło i dotrzesz w całości na drugą stronę."
+	image: "data/images/1-31.jpg"
+	button3Text: "..."
+	button3LevelLoad: "1-31-d2"
+	button3IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-31-d2={
+	text: "Będąc już prawie po drugiej stronie zauważasz, że obrałeś niezbyt optymalną trajektorię i musisz złapać się krawędzi, a następnie podciągnąć się. Próbujesz złapać się krawędzi, jednakże okazuje się ona zbyt ostra i rani twoje dłonie, przez co nie możesz jej się złapać. Zaczynasz spadać w przepaść..."
+	image: "data/images/1-31.jpg"
+	button3Text: "..."
+	button3LevelLoad: "game_over"
+	button3IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+1-31-alt={
+	text: "Za pomocą zaimprowizowanej kładki jesteś w stanie w miarę bezpiecznie przejść nad przepaścią."
+	image: "data/images/1-31-alt.jpg"
+	button3Text: "1-32"
+	button3LevelLoad: "1-32"
+	button3IsEnabled: "true"
+	button4Text: "Wróc"
+	button4LevelLoad: "1-28"
+	button4IsEnabled: "true"
+	music: "data/music/2.ogg"
+}
+
+game_over={
+	text: "Koniec gry"
+	image: "data/images/game over.png"
+	music: "data/music/game_over.ogg"
+	loopMusic: "false"
+}
+
+troll={
+	text: "Trolololo"
+	image: "data/images/troll.jpg"
+	button1Text: "l������#�l��2''��e��"
+	button1LevelLoad: "troll"
+	button1IsEnabled: "true"
+	button2Text: "s"
+	button2LevelLoad: "troll"
+	button2IsEnabled: "true"
+	button3Text: "7��T"Rh�fu��q�%e��Dx"
+	button3LevelLoad: "troll"
+	button3IsEnabled: "true"
+	button4Text: "i�M�i�D1���/nl~�����_^C"
+	button4LevelLoad: "troll"
+	button4IsEnabled: "true"
+	music: "data/music/troll.ogg"
